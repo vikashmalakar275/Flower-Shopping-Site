@@ -1,0 +1,92 @@
+body{
+background: #0000;
+color: #e0f;
+margin-top: 50px;
+width: 100%;
+
+}
+h3{
+  color: #000;
+}
+h1{
+  color: rgba(255, 0, 0, 0.8);
+}
+th{
+  color: #000;
+}
+td{
+  color: #0000ff;
+}
+body>main>section>table{
+  background: rgba(255, 165, 0, 0.2);
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+body>header{
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background: rgba(255, 165, 0, 0.8);
+  left: 0px;
+}
+body>header::before{
+  content: "Love is the flower you’ve got to let grow";
+  display: block;
+  width: 350px;
+  height: 40px;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  bottom: 0px;
+}
+@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap');
+body>main>section>h2{
+  font-family: cursive;
+  border-bottom: 2px dotted #0af;
+}
+article{
+  max-width: 100%;
+  display: inline-block;
+  border: 1.5px solid #303c4b;
+  margin: 10px;
+  padding: 1px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 0, 0.2);
+  box-shadow: 5px 5px 20px -1px rgba(0, 0, 0, 0.6);
+  transition:  50ms;
+  background: 3s;
+}
+article img{
+  width: 180px;
+  height: 130px;
+  border-radius: 8px;
+}
+a{
+  text-decoration: none;
+  text-shadow: 1px -1px 1px #0af;
+}
+a:hover{
+  color: #ff4500;
+}
+.search{
+  display: block;
+  width: 100%;
+  margin: 1px 750px;
+  padding: 5px 10px;
+  border-radius: 10px 20px 2px 50px;
+}
+.search:focus{
+  background: #d5ffc2;
+  color: #0f8034;
+  outline: none;
+  border: 1px solid #000;
+}
+article:active{
+  opacity: .5;
+}
+article:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+  background: #d3f3c8;
+}

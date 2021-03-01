@@ -1,0 +1,66 @@
+<html>
+   <head>
+     <title>Buy product</title>
+   </head>
+   <body>
+     <header>
+       <h1>Malakar Florist</h1>
+       <h3>Fast Flower Delivery</h3>
+     </header>
+     <main>
+       <section id="contact-form">
+         <h2>Place Order</h2>
+         <form method="GET" action="order.php">
+           <input name="firstname" placeholder="First Name" class="sm-input"/>
+           <input name="middlename" placeholder="Middle Name" class="sm-input"/>
+           <input name="lastname" placeholder="Last Name" class="sm-input"/><br/>
+           <h4>Gender</h4>
+           <input name="gender" type="radio" value="Male"/>Male
+           <input name="gender" type="radio" value="Female"/>Female<br/>
+           <input name="address1" placeholder="Address Line 1" class="lg-input"/><br/>
+           <input name="address2" placeholder="Address Line 2" class="lg-input"/><br/>
+           <input name="address3" placeholder="Address Line 3" class="lg-input"/><br/>
+           <input name="state" placeholder="State" class="sm-input"/>
+           <input name="city" placeholder="city" class="sm-input"/>
+           <input name="pincode" placeholder="Pin Code" class="sm-input"/>
+           <h4>Product</h4>
+           <input name="product" type="checkbox" value="flower"/>Flower<br/>
+           <select name="Flower">
+             <option value="alstromeria">alstromeria - ₹514</option>
+             <option value="Anemone-flower">Anemone Flower - ₹220</option>
+             <option value="Asters">Asters - ₹80</option>
+             <option value="chrysanthemum-flower">Chrysanthemum Flower - ₹59</option>
+             <option value="daisy">Daisy - ₹66</option>
+             <option value="gardenia">Gardenia - ₹42</option>
+             <option value="magnolia">Magnolia - ₹89</option>
+             <option value="orchid">Orchids - ₹19</option>
+             <option value="pink-carnations">Pink Carnations - ₹55</option>
+             <option value="rose">Rose - ₹69</option>
+           <select/><br/>
+           <input name="product" type="checkbox" value="seed"/>Seed<br/>
+           <select name="Seed">
+             <option value="chia seed">Chia Seed - ₹96</option>
+             <option value="fennel seed">fennel Seed - ₹85</option>
+             <option value="fenugreek seed">Fenugreek Seed - ₹96</option>
+             <option value="flax seed">Flax Seed - ₹68</option>
+             <option value="grape seed">Grape Seed - ₹222</option>
+             <option value="hemp seed">Hemp Seed - ₹65</option>
+             <option value="poppy seed">Poppy Seed - ₹46</option>
+             <option value="pumpkin seed">Pumpkin Seed - ₹35</option>
+             <option value="sesame seed">Sesame Seed - ₹91</option>
+             <option value="sunflower seed">Sunflower Seed - ₹70</option>
+            <select/><br/>
+           <input name="product" type="checkbox" value="gift"/>Gift<br/>
+           <select name="Gift">
+             <option value="barbie-cake">Barbie Cake - ₹62</option>
+             <option value="cake">Cake - ₹52</option>
+             <option value="pink-Beauty-Bouquet">Pink Beauty Bouquet - ₹21</option>
+             <option value="teddy on top">Teddy On Top - ₹10</option>
+           <select/><br/><br/>
+           <button type="submit">Place order</button>
+         </form>
+       </section>
+     </main>
+   </body>
+
+</html>
